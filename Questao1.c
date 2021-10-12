@@ -4,7 +4,7 @@
  #include <stdio.h>
  #include <math.h>
 
- void temp(float Celsius, float *Kelvin, float *Fahrenheit){ //função que converte Celsius para Kelvin e Fahrenheit
+ void temp (float Celsius, float *Kelvin, float *Fahrenheit){ //função que converte Celsius para Kelvin e Fahrenheit
     *Kelvin = (Celsius + 273.15); // calculo cara converter Celsius para Kelvin
     *Fahrenheit = ((Celsius * 1.8) + 32); // calculo para converter Celsius para Fahrenheit
 }
